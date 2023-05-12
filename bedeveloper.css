@@ -1,0 +1,118 @@
+#page-container {
+  height: 100vh; /* Sayfanın tam boyutunu kaplaması için */
+  overflow-y: scroll; /* Dikey kaydırma özelliği eklemek için */
+}
+
+.page {
+  height: 100vh; /* Sayfanın tam boyutunu kaplaması için */
+  padding: 50px;
+ 
+}
+body{
+  background-image: url(689260.jpg);
+  background-size: cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+  .navbar a{
+      color:#fff;
+      text-decoration: none;
+      font-size:30px;
+      margin:25px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    
+  .navbar{
+      float: right;
+      line-height: 70px;
+      margin-right: 50px;}
+      
+     
+  
+  .navbar a:hover{
+      font-size: 33px;
+      transition:0.2s;
+      font-style:italic;
+      color:gainsboro;
+     
+     
+  }
+.engtm{
+  text-decoration: none;
+  color:#fff;
+  font-style: italic;
+  font-size:80px;
+  line-height: 120px;
+  margin-left: 30px;
+ }
+ h3{
+  font-size: 120px;
+  color:powderblue;
+  margin-left: 250px;
+ }
+ .button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-left:260px;
+
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:active {
+  background-color: #3e8e41;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  } }
+  
+  .paragraf {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   color:#fff
+  }
+  i{
+    margin: 50px;
+    text-shadow: 0 0 10px orange;
+  }
+  i:hover{
+    font-size: 70px;
+    transition: 0.3s ease-in-out;
+    text-shadow: 0 0 50px orangered;
+    
+  }
+  .ts{
+    font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#fff;
+        text-shadow: 0 0 5px yellow;
+  }
+  
